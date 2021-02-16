@@ -1,0 +1,34 @@
+{
+  "name": "my_movie_list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessesmith-13/my_movie_list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessesmith-13/my_movie_list/issues"
+  },
+  "homepage": "https://github.com/jessesmith-13/my_movie_list#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "react": "^17.0.1",
+    "webpack": "^5.22.0"
+  }
+}
